@@ -47,7 +47,7 @@ def get_latlong():
     unique_address_array = remove_duplicates(address_only_col_array)
 
     # init goggle map api
-    g = GoogleV3(api_key="AIzaSyAdfh92Qh7fQb9-yYUduB21_NHh55gvmys")
+    g = GoogleV3(api_key="yourgoogleapikey")
 
     conn = sqlite3.connect(pathdb)
     c = conn.cursor()
